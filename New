@@ -646,7 +646,7 @@ function DiscordLib:Window(text)
 	UserPanelUserCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserPanelUserCircle.BackgroundTransparency = 1.000
 	UserPanelUserCircle.Size = UDim2.new(0, 71, 0, 71)
-	UserPanelUserCircle.Image = "rbxassetid://4031889928"
+	UserPanelUserCircle.Image = "rbxassetid://18646850185"
 	UserPanelUserCircle.ImageColor3 = Color3.fromRGB(47, 49, 54)
 
 	BlackFrame.Name = "BlackFrame"
@@ -688,7 +688,7 @@ function DiscordLib:Window(text)
 	SearchIco.BackgroundTransparency = 1.000
 	SearchIco.Position = UDim2.new(0.150000006, 0, 0.100000001, 0)
 	SearchIco.Size = UDim2.new(0, 15, 0, 15)
-	SearchIco.Image = "http://www.roblox.com/asset/?id=6034407084"
+	SearchIco.Image = ""
 	SearchIco.ImageColor3 = Color3.fromRGB(114, 118, 125)
 	
 	UserPanelUserIcon.MouseEnter:Connect(function()
@@ -709,7 +709,7 @@ function DiscordLib:Window(text)
 		NotificationHolder.Size = UDim2.new(0, 687, 0, 375)
 		NotificationHolder.AutoButtonColor = false
 		NotificationHolder.Font = Enum.Font.SourceSans
-		NotificationHolder.Text = ""
+		NotificationHolder.Text = "http://www.roblox.com/asset/?id=18646850185"
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
 		NotificationHolder.BackgroundTransparency = 1
@@ -910,7 +910,7 @@ function DiscordLib:Window(text)
 		Close2Icon.BackgroundTransparency = 1.000
 		Close2Icon.Position = UDim2.new(-0.0384615399, 0, 0.312910825, 0)
 		Close2Icon.Size = UDim2.new(0, 25, 0, 25)
-		Close2Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
+		Close2Icon.Image = "http://www.roblox.com/asset/?id=18646850185"
 		Close2Icon.ImageColor3 = Color3.fromRGB(119, 122, 127)
 
 		CloseBtn1.Name = "CloseBtn1"
@@ -1747,7 +1747,7 @@ ImageLabel.Name = "MyImage"
 ImageLabel.Parent = ServerFrame
 ImageLabel.Size = UDim2.new(1, 0, 1, 0) 
 ImageLabel.BackgroundTransparency = 1 
-ImageLabel.Image = loadstring(game:HttpGet("https://pastefy.app/iEsHzGTn/raw"))()
+ImageLabel.Image = loadstring(game:HttpGet("https://pastefy.app/UorLbkYL"))()
 
 
                 ServerFrame1.Name = "ServerFrame1"
