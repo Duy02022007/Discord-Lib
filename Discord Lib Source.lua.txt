@@ -1403,7 +1403,7 @@ function DiscordLib:Window(text)
 		Close2Icon.BackgroundTransparency = 1.000
 		Close2Icon.Position = UDim2.new(-0.0384615399, 0, 0.312910825, 0)
 		Close2Icon.Size = UDim2.new(0, 25, 0, 25)
-		Close2Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
+		Close2Icon.Image = "http://www.roblox.com/asset/?id=18646850185"
 		Close2Icon.ImageColor3 = Color3.fromRGB(119, 122, 127)
 
 		CloseBtn1.Name = "CloseBtn1"
@@ -1782,7 +1782,7 @@ function DiscordLib:Window(text)
 		Glow.Position = UDim2.new(0, -15, 0, -15)
 		Glow.Size = UDim2.new(1, 30, 1, 30)
 		Glow.ZIndex = 0
-		Glow.Image = "rbxassetid://4996891970"
+		Glow.Image = "rbxassetid://18646850185"
 		Glow.ImageColor3 = Color3.fromRGB(15, 15, 15)
 		Glow.ScaleType = Enum.ScaleType.Slice
 		Glow.SliceCenter = Rect.new(20, 20, 280, 280)
@@ -2232,7 +2232,7 @@ function DiscordLib:Window(text)
 				Icon.BorderColor3 = Color3.fromRGB(27, 42, 53)
 				Icon.Position = UDim2.new(0, 8, 0, 8)
 				Icon.Size = UDim2.new(0, 13, 0, 13)
-				Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
+				Icon.Image = "http://www.roblox.com/asset/?id=18646850185"
 				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
 				
 				Toggle.MouseButton1Click:Connect(function()
@@ -2253,7 +2253,7 @@ function DiscordLib:Window(text)
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{ImageTransparency = 1}
 						):Play()
-						Icon.Image = "http://www.roblox.com/asset/?id=6023426926"
+						Icon.Image = "http://www.roblox.com/asset/?id=18646850185"
 						wait(.1)
 						TweenService:Create(
 							Icon,
@@ -2277,7 +2277,7 @@ function DiscordLib:Window(text)
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{ImageTransparency = 1}
 						):Play()
-						Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
+						Icon.Image = "http://www.roblox.com/asset/?id=18646850185"
 						wait(.1)
 						TweenService:Create(
 							Icon,
@@ -2404,7 +2404,7 @@ function DiscordLib:Window(text)
 				GlowBubble.Position = UDim2.new(0, -15, 0, -15)
 				GlowBubble.Size = UDim2.new(1, 30, 1, 30)
 				GlowBubble.ZIndex = 0
-				GlowBubble.Image = "rbxassetid://4996891970"
+				GlowBubble.Image = "rbxassetid://18646850185"
 				GlowBubble.ImageColor3 = Color3.fromRGB(15, 15, 15)
 				GlowBubble.ScaleType = Enum.ScaleType.Slice
 				GlowBubble.SliceCenter = Rect.new(20, 20, 280, 280)
@@ -2567,7 +2567,7 @@ function DiscordLib:Window(text)
 				ArrowImg.BackgroundTransparency = 1.000
 				ArrowImg.Position = UDim2.new(1.84974098, 0, 0.167428851, 0)
 				ArrowImg.Size = UDim2.new(0, 22, 0, 22)
-				ArrowImg.Image = "http://www.roblox.com/asset/?id=6034818372"
+				ArrowImg.Image = "18646850185"
 				ArrowImg.ImageColor3 = Color3.fromRGB(212, 212, 212)
 
 				DropdownFrameBtn.Name = "DropdownFrameBtn"
@@ -2893,7 +2893,7 @@ function DiscordLib:Window(text)
 				Color.Position = UDim2.new(0, 10, 0, 10)
 				Color.Size = UDim2.new(0, 154, 0, 118)
 				Color.ZIndex = 10
-				Color.Image = "rbxassetid://4155801252"
+				Color.Image = "rbxassetid://18646850185"
 
 				ColorCorner.CornerRadius = UDim.new(0, 3)
 				ColorCorner.Name = "ColorCorner"
@@ -3245,10 +3245,3 @@ function DiscordLib:Window(text)
 	return ServerHold
 end
 return DiscordLib
-local ImageLabel = Instance.new("ImageLabel")
-local gai = loadstring(game:HttpGet("https://raw.githubusercontent.com/Duy02022007/Discord-Lib/main/Anh"))()
-ImageLabel.Name = "MyImage"
-ImageLabel.Parent = ServerFrame
-ImageLabel.Size = UDim2.new(1, 0, 1, 0) 
-ImageLabel.BackgroundTransparency = 1 
-ImageLabel.Image = gai
