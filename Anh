@@ -1,6 +1,6 @@
 
 function ga()
-local gai = {"rbxassetid://18689639462","rbxassetid://18689639462","rbxassetid://18689639462","rbxassetid://18689639462","rbxassetid://18689639462"}
+local gai = {"rbxassetid://18646850185","rbxassetid://18646850185","rbxassetid://18646850185","rbxassetid://18646850185","rbxassetid://18646850185"}
 return gai[math.random(#gai)]
 end
 return ga()
