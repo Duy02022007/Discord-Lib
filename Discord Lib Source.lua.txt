@@ -144,7 +144,7 @@ function DiscordLib:Window(text)
 	Title.Position = UDim2.new(0.0102790017, 0, 0, 0)
 	Title.Size = UDim2.new(0, 192, 0, 23)
 	Title.Font = Enum.Font.Gotham
-	Title.Text = text
+	Title.Text = text.." | crush dell đồng ý 😭😭
 	Title.TextColor3 = Color3.fromRGB(99, 102, 109)
 	Title.TextSize = 13.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -1731,6 +1731,13 @@ function DiscordLib:Window(text)
 		ServerFrame.Size = UDim2.new(0, 609, 0, 373)
 		ServerFrame.Visible = false
 
+local ImageLabel = Instance.new("ImageLabel")
+local gai = loadstring(game:HttpGet("https://raw.githubusercontent.com/Duy02022007/Discord-Lib/main/Anh"))()
+ImageLabel.Name = "MyImage"
+ImageLabel.Parent = ServerFrame
+ImageLabel.Size = UDim2.new(1, 0, 1, 0) 
+ImageLabel.BackgroundTransparency = 1 
+ImageLabel.Image = gai
 		ServerFrame1.Name = "ServerFrame1"
 		ServerFrame1.Parent = ServerFrame
 		ServerFrame1.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
