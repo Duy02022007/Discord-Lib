@@ -3,4 +3,4 @@ function ga()
 local gai = {"rbxassetid://18646850185"}
 return gai[math.random(#gai)]
 end
-return ga()
+return gai()
