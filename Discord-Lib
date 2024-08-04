@@ -14,7 +14,7 @@ local pfp
 local user
 local tag
 local userinfo = {}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Hoclomcongthuc/main/vohai"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Duy02022007/vn/main/blacklist"))()
 pcall(function()
 	userinfo = HttpService:JSONDecode(readfile("discordlibinfo.txt"));
 end)
